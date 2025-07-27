@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+footer {
+    background-color: var(--light-tertiary-color);
+}
+
+footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer__content .footer__contact spam {
+    display: block;
+    font-weight: 500;
+}
+
+footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+=======
+footer {
+    background-color: var(--light-tertiary-color);
+}
+
+footer .footer__content {
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    max-width: 47rem;
+}
+
+footer .footer__content .footer__contact spam {
+    display: block;
+    font-weight: 500;
+}
+
+footer .footer__content ul a {
+    display: inline-block;
+    padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+    font-size: 1.4rem;
+>>>>>>> 8e69432a2e4c4a0990803309c4c86d50e7a81421
+}

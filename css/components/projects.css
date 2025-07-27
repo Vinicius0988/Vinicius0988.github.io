@@ -1,0 +1,191 @@
+<<<<<<< HEAD
+.projects {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects__content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects ul li.projects__reversed-list {
+    flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+
+.projects ul li .image img {
+    width: 100%;
+    min-width: 40rem;
+    max-width: 47rem;
+    height: auto;
+    border-radius: 8px;
+}
+
+.projects ul li .projects__info {
+    max-width: 47rem;
+}
+
+.projects ul li .projects__info p {
+    margin: 1rem 0 4rem;
+}
+
+.projects ul li .projects__info a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+/* Força o <li> a empilhar verticalmente (imagem(s) em cima, texto embaixo) */
+.projects__category ul li {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+/* Faz as imagens ficarem lado a lado */
+.projects__category ul li .image {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap; /* para quebrar linha se necessário */
+  width: 100%;
+}
+
+/* Ajusta as imagens para um tamanho proporcional */
+.projects__category ul li .image img {
+  flex: 1 1 40%; /* flex-grow:1; flex-shrink:1; flex-basis:40% */
+  max-width: 45%; /* limita o tamanho máximo */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  min-width: 200px; /* garante tamanho mínimo */
+}
+
+@media only screen and (max-width: 768px) {
+    .projects ul li, 
+    .projects ul li.projects__reversed-list {
+        flex-direction: column;
+    }
+    .projects ul li.projects__reversed-list > .image {
+    order: 0;
+    }
+    .projects ul li.projects__reversed-list > .projects__info {
+    order: 1;
+    }
+    .projects ul li.projects__info {
+        max-width: 66rem;
+    }
+    .projects ul li .image img {
+        max-width: 100%;
+    }
+
+    .image-group {
+    display: flex;
+    overflow-x: auto; /* scroll horizontal visível */
+    gap: 1rem;
+    padding-bottom: 1rem;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch; /* suave em iOS */
+  }
+
+  .image-group img {
+    flex-shrink: 0;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    scroll-snap-align: start;
+  }
+}
+
+.image-group img {
+  width: 45%; /* aumenta para quase metade do container */
+  max-width: 300px; /* limita o tamanho máximo */
+  min-width: 200px; /* garante que não fiquem muito pequenas */
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+
+
+
+=======
+.projects {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+}
+
+.projects .projects__content {
+    max-width: 56rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.projects ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+}
+
+.projects ul li.projects__reversed-list {
+    flex-direction: row-reverse;
+}
+
+.projects ul li:not(:last-of-type) {
+    margin-bottom: 12rem;
+}
+
+.projects ul li .image img {
+    width: 100%;
+    min-width: 40rem;
+    max-width: 47rem;
+    height: auto;
+}
+
+.projects ul li .projects__info {
+    max-width: 47rem;
+}
+
+.projects ul li .projects__info p {
+    margin: 1rem 0 4rem;
+}
+
+.projects ul li .projects__info a {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects ul li, 
+    .projects ul li.projects__reversed-list {
+        flex-direction: column;
+    }
+    .projects ul li.projects__reversed-list > .image {
+    order: 0;
+  }
+  .projects ul li.projects__reversed-list > .projects__info {
+    order: 1;
+  }
+    .projects ul li.projects__info {
+        max-width: 66rem;
+    }
+    .projects ul li .image img {
+        max-width: 100%;
+    }
+    
+}
+>>>>>>> 8e69432a2e4c4a0990803309c4c86d50e7a81421
