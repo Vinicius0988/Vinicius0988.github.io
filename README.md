@@ -2,6 +2,8 @@
 
 Olá! Seja bem-vindo(a) ao meu portfólio pessoal. Sou um entusiasta da tecnologia e estudante de **Análise e Desenvolvimento de Sistemas (ADS)**. Este espaço foi criado para apresentar a você um pouco da minha jornada no mundo do desenvolvimento, meus projetos práticos e as tecnologias que venho explorando e dominando.
 
+**🌐 [Acesse meu site aqui](https://vinicius0988.github.io)**
+
 Minha paixão por resolver problemas e criar soluções eficientes me impulsiona a aprender e aplicar novos conhecimentos constantemente. Estou sempre em busca de desafios que me permitam crescer como desenvolvedor.
 
 ---
